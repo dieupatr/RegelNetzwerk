@@ -4,6 +4,15 @@ from LexDrawio import *
 
 
 
+
+
+
+
+
+
+
+
+
 def ChooseTypOfBlock( typ):
 
     if typ=="ellipse":  return "ellipse"
@@ -37,7 +46,9 @@ def BuildRuleBasedNetwork(Diagram, DiagramName):
         Id=block.Attr['id']
         typ=ChooseTypOfBlock( block.Attr['style'][0] )
 
-        LogicBlocks[Id]=[typ ,  block.Attr['value']  ]
+        if typ!=None:   LogicBlocks[Id]=[typ ,  block.Attr['value']  ]
+
+        
 
 
     #Sort Arrows
@@ -53,11 +64,21 @@ def BuildRuleBasedNetwork(Diagram, DiagramName):
         LogicArrwos[source]=target
 
 
+    
+
+
 
     #################################
 
-    #Build Simpel Rules
+    
     File=open(DiagramName+".py",'w')
+
+    #Build Preload
+    
+
+
+
+    #Build Simpel Rules
 
     for key in LogicArrwos:
 
@@ -74,22 +95,49 @@ def BuildRuleBasedNetwork(Diagram, DiagramName):
 
         Value=FormatInLogic(SourceBlock[1])
 
-        Rule=f"if ({Value}): { TargetBlock[1]}\n"
+        Rule=f"\tif ({Value}): { TargetBlock[1]}\n"
 
         File.write(Rule)
 
 
+    # Build cojugation ( and , or  )
+    
+    for  keyblock in LogicBlocks:
 
-    for  key in LogicBlocks:
+        Typ=LogicBlocks[keyblock][0]
 
-        Typ=LogicBlocks[key][0]
+        #Find chuild blocks
 
         if Typ=="And" or Typ=="Or":
 
-            Id=key
-            
-            pass
-        
+            Id=keyblock
+
+            ChildBlocks=[  ]
+
+            for keyarrow in LogicArrwos:
+
+                target=LogicArrwos[keyarrow]
+                
+                if target==keyblock:  ChildBlocks.append(keyarrow)
+
+        #Build Rule
+
+            N=len(ChildBlocks)
+
+            Rule="if "
+
+            Quantor="and"  if Typ=="And" else "or"
+
+            for k in range(N-1):
+
+                Value=FormatInLogic(LogicBlocks[ChildBlocks[k]][1])
+
+                Rule=Rule+"( "+Value+")"+ Quantor
+
+            Rule=Rule+" ("+FormatInLogic(LogicBlocks[ChildBlocks[N-1]][1])+" ) : "+LogicBlocks[keyblock][1]+"\n"
+
+            File.write(Rule)
+
         else:
             continue
 
