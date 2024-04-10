@@ -1,7 +1,40 @@
-
 from LexDrawio import *
-
 import sys
+
+
+
+
+
+def DectectError(value,pattern):
+
+       match=re.findall(pattern, value)
+       
+       
+
+       if len(match)>0:
+              print(f"Error in : {value} ")
+              sys.exit(0)
+
+       else:
+              pass
+
+
+def CheckSyntax( value,pattern):
+
+    pattern = re.compile(pattern)
+    if pattern.match(value):
+        pass
+       
+    else:
+           
+           print(f"Syntax Error in : {value} '")
+           sys.exit(0)
+
+
+
+
+
+
 
 
 def GenerateCode(ConjugateRules,SimpelRules,Literals,StateLiterals,DiagramName):
@@ -76,6 +109,10 @@ def ChooseTypOfBlock( typ):
 
 
 def FormatInLogic(Value):
+
+    DectectError(Value,r'[^a-zA-Z0-9\s_\"<>!=]')
+
+    CheckSyntax( Value,r'\s*[a-zA-Z0-9_]*\s*[=<>!]*\s*[a-zA-Z0-9_\"]*')
 
     if "<" in Value or ">" in Value or "!" in Value:
         return Value
