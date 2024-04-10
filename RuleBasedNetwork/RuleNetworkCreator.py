@@ -51,7 +51,7 @@ def CountNumFacts(Facts):
                     
        return NumberNone 
     
-def DataDrivenInter_{DiagramName}(State):
+def RuleNetwork_{DiagramName}(State):
                
        #Start 
 
@@ -83,9 +83,8 @@ def DataDrivenInter_{DiagramName}(State):
 
        return Facts
 
-{Literals}={StateLiterals}
-State={Literals}
-print(DataDrivenInter_{DiagramName}(State))
+# State:      {Literals}={StateLiterals}     
+
     """
 
 
@@ -112,7 +111,7 @@ def FormatInLogic(Value):
 
     DectectError(Value,r'[^a-zA-Z0-9\s_\"<>!=]')
 
-    CheckSyntax( Value,r'\s*[a-zA-Z0-9_]*\s*[=<>!]*\s*[a-zA-Z0-9_\"]*')
+    CheckSyntax( Value,r'\s*[a-zA-Z0-9_]*\s*[=<>!]*\s*[a-zA-Z0-9_\"]*$')
 
     if "<" in Value or ">" in Value or "!" in Value:
         return Value
@@ -272,6 +271,7 @@ def BuildRuleBasedNetwork(file_path, TabName):
     #Write in File
     
     File=open(TabName+".py","w")
+    Code=re.sub(r'[^\x00-\x7F]+', '', Code)
     File.write(Code)
     File.close()
     

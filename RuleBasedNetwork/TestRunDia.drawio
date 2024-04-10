@@ -1,13 +1,13 @@
-<mxfile host="Electron" modified="2024-04-10T11:53:22.830Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="7GQXNmOUslFXTsJnezsU" version="21.6.1" type="device">
+<mxfile host="Electron" modified="2024-04-10T14:32:03.162Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="GvpZo9DuuziTL-nldy75" version="21.6.1" type="device" pages="3">
   <diagram name="Test1" id="1sgSdVJEwcIP3duE8hfh">
-    <mxGraphModel dx="1164" dy="197" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1181" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="5iD7x0PNoDq-AlD3vuLu-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.167;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="1cZIUDrJ0Ts1eYSyoHEo-1" target="5iD7x0PNoDq-AlD3vuLu-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1cZIUDrJ0Ts1eYSyoHEo-1" value="&amp;nbsp; &amp;nbsp;A &amp;gt; j jjj" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="1cZIUDrJ0Ts1eYSyoHEo-1" value="&amp;nbsp; &amp;nbsp;A = 1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="290" y="290" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5iD7x0PNoDq-AlD3vuLu-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1cZIUDrJ0Ts1eYSyoHEo-2" target="5iD7x0PNoDq-AlD3vuLu-3" edge="1">
@@ -32,7 +32,7 @@
           <mxGeometry x="480" y="350" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5iD7x0PNoDq-AlD3vuLu-8" value="Variables" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-370" y="10" width="110" height="180" as="geometry" />
+          <mxGeometry x="40" y="20" width="110" height="180" as="geometry" />
         </mxCell>
         <mxCell id="5iD7x0PNoDq-AlD3vuLu-9" value="A" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="5iD7x0PNoDq-AlD3vuLu-8" vertex="1">
           <mxGeometry y="30" width="110" height="30" as="geometry" />
@@ -48,6 +48,118 @@
         </mxCell>
         <mxCell id="5iD7x0PNoDq-AlD3vuLu-13" value="E" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="5iD7x0PNoDq-AlD3vuLu-8" vertex="1">
           <mxGeometry y="150" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="89K6w88wsv1YMDNDfE5j" name="QuickAnd">
+    <mxGraphModel dx="1181" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="THrIshXc0CE1s_BjOD3_-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="THrIshXc0CE1s_BjOD3_-1" target="THrIshXc0CE1s_BjOD3_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THrIshXc0CE1s_BjOD3_-1" value="A=1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="THrIshXc0CE1s_BjOD3_-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.7;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="THrIshXc0CE1s_BjOD3_-2" target="THrIshXc0CE1s_BjOD3_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THrIshXc0CE1s_BjOD3_-2" value="B=1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="THrIshXc0CE1s_BjOD3_-3" value="C=1" style="shape=or;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="290" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="THrIshXc0CE1s_BjOD3_-7" value="Variables" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="250" width="100" height="120" as="geometry">
+            <mxRectangle x="195" y="10" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THrIshXc0CE1s_BjOD3_-8" value="A" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="THrIshXc0CE1s_BjOD3_-7">
+          <mxGeometry y="30" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="THrIshXc0CE1s_BjOD3_-9" value="B" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="THrIshXc0CE1s_BjOD3_-7">
+          <mxGeometry y="60" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="THrIshXc0CE1s_BjOD3_-10" value="C" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="THrIshXc0CE1s_BjOD3_-7">
+          <mxGeometry y="90" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FW7IfWWQ0w3LEreAygkT" name="Doc">
+    <mxGraphModel dx="2221" dy="331" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y3sLPRT4r1AyrnIU3L4y-2" value="ReadMe.md" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="70" width="370" height="820" as="geometry">
+            <mxRectangle x="-850" y="70" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rR65ZmzY5jRrWfv2Owm_-2" value="# RegelNetzwerk&lt;br&gt;In diesem Projekt stellen wir einen **Code generator** vor, der aus einem **Drawio**&lt;br&gt;&amp;nbsp;Diagramm&amp;nbsp; ein&amp;nbsp; **Regelbasiertes Expertensystem** macht.&lt;br&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="Y3sLPRT4r1AyrnIU3L4y-2">
+          <mxGeometry x="4" y="30" width="286" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rR65ZmzY5jRrWfv2Owm_-3" value="## Inhaltsverzeichniss:&lt;br&gt;* Quickstart&lt;br&gt;* Funktions Dokumentation&lt;br&gt;* Beispiele" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y3sLPRT4r1AyrnIU3L4y-2">
+          <mxGeometry x="4" y="130" width="206" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rR65ZmzY5jRrWfv2Owm_-4" value="## Quickstart" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y3sLPRT4r1AyrnIU3L4y-2">
+          <mxGeometry x="4" y="200" width="206" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rR65ZmzY5jRrWfv2Owm_-5" value="Wir beginnen mit dem Folgenden **Diagramm**" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="Y3sLPRT4r1AyrnIU3L4y-2">
+          <mxGeometry x="4" y="230" width="226" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EVw_bSJVjm4M8P6PzEuh-1" value="![Bild&amp;nbsp; ](Doc/Bilder/QuickAnd.PNG)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="Y3sLPRT4r1AyrnIU3L4y-2">
+          <mxGeometry x="4" y="280" width="236" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iUUdP2kSCZSZGC-2RZj9-1" value="&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;&lt;br&gt;Die **Kreise** und der **Halb Kreis** sind Variablen. Die **Pfeile** stellen eine Logischeverbindung dar.&lt;br&gt;Das Element **&quot;Variablen&quot;** Listet alle variablen auf die in dem **Diagramm** verwendung finden.&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y3sLPRT4r1AyrnIU3L4y-2">
+          <mxGeometry x="4" y="310" width="296" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="iUUdP2kSCZSZGC-2RZj9-2" value="&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;&amp;nbsp;&lt;br&gt;Der folgende Konsolen Befehl&lt;br&gt;&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;RuleNetworkCreator.py TestRule-drawio QuickAnd&amp;nbsp;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y3sLPRT4r1AyrnIU3L4y-2">
+          <mxGeometry x="4" y="450" width="276" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUUdP2kSCZSZGC-2RZj9-3" value="Wandel das Diagramm in das folgende **Skript** um **[QuickAnd.py](Doc/QuickAnd.py)**" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y3sLPRT4r1AyrnIU3L4y-2">
+          <mxGeometry x="4" y="540" width="356" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iUUdP2kSCZSZGC-2RZj9-4" value="&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;if (A==1) and (B==1) : (C==1)" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="Y3sLPRT4r1AyrnIU3L4y-2">
+          <mxGeometry x="4" y="610" width="236" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVRxacP6VQNdetIpL3HV-1" value="Doc/FuncDoc.md" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="600" height="1120" as="geometry">
+            <mxRectangle x="-400" y="130" width="170" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sVRxacP6VQNdetIpL3HV-2" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;# Technische Dokumentation&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;in diesem Teil Dokumentieren wir die einzelnen Funktion des **RuleNetworkCreator** näher beschrieben.&lt;br&gt;&lt;br&gt;## Form Drawio&lt;br&gt;&lt;br&gt;Es wird die folgende form in Drawio&amp;nbsp; verwendet ." style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="sVRxacP6VQNdetIpL3HV-1">
+          <mxGeometry x="10" y="51" width="450" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="sVRxacP6VQNdetIpL3HV-3" value="### Syntax Variablen&lt;br&gt;Die **Variablen** haben den folgende Syntax" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sVRxacP6VQNdetIpL3HV-1">
+          <mxGeometry x="5" y="320" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVRxacP6VQNdetIpL3HV-4" value="&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;**Abweichungen von diesem **Syntax** führen zu einer Fehlermeldung**" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sVRxacP6VQNdetIpL3HV-1">
+          <mxGeometry x="5" y="480" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVRxacP6VQNdetIpL3HV-5" value="## Der Aufruf über die Konsole" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sVRxacP6VQNdetIpL3HV-1">
+          <mxGeometry x="10" y="840" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVRxacP6VQNdetIpL3HV-6" value="Der folgende Befehl ruft das Programm **RuleNetworkCreator&lt;br&gt;** über die Konsole auf&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;ClassCreator.py [Name Drawio File] [Name Diagramm]" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="sVRxacP6VQNdetIpL3HV-1">
+          <mxGeometry x="10" y="930" width="370" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sVRxacP6VQNdetIpL3HV-7" value="&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;&lt;br&gt;![Bild](Bilder/FuncDocFormClass.png)&lt;br&gt;&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sVRxacP6VQNdetIpL3HV-1">
+          <mxGeometry x="10" y="220" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVRxacP6VQNdetIpL3HV-8" value="&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;&lt;br&gt;![Bild](Bilder/FuncDocMethodAndAtributes.png)&lt;br&gt;&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sVRxacP6VQNdetIpL3HV-1">
+          <mxGeometry x="5" y="400" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVRxacP6VQNdetIpL3HV-9" value="## Logische Verbindung&lt;br&gt;In dem folgendem Diagramm wird die&amp;nbsp; Verbindung dargestellt." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sVRxacP6VQNdetIpL3HV-1">
+          <mxGeometry x="5" y="560" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVRxacP6VQNdetIpL3HV-10" value="&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;&lt;br&gt;![Bild](Bilder/QuickClassDiagramm.png)&lt;br&gt;&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sVRxacP6VQNdetIpL3HV-1">
+          <mxGeometry x="5" y="640" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVRxacP6VQNdetIpL3HV-11" value="hhhh" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sVRxacP6VQNdetIpL3HV-1">
+          <mxGeometry x="5" y="740" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

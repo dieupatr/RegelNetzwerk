@@ -10,12 +10,12 @@ def CountNumFacts(Facts):
                     
        return NumberNone 
     
-def RuleNetwork_Test1(State):
+def RuleNetwork_QuickAnd(State):
                
        #Start 
 
-       [A,B,C,D,E]=State
-       Facts=[A,B,C,D,E]
+       [A,B,C]=State
+       Facts=[A,B,C]
        Num_new=CountNumFacts(Facts) 
 
        while( True ):
@@ -25,16 +25,15 @@ def RuleNetwork_Test1(State):
               #Logic rule based network
 
               
-              if (C==1): D=1
 
 
-              if (  A == 1) or ( B==1) or  (E==1 ) : C=1
+              if ( A==1) and  (B==1 ) : C=1
 
 
 
 
              #Refresh set of facts
-              Facts= [A,B,C,D,E]
+              Facts= [A,B,C]
               Num_new=CountNumFacts(Facts)
 
 
@@ -44,6 +43,6 @@ def RuleNetwork_Test1(State):
 
        return Facts
 
-# State:      [A,B,C,D,E]=[None,None,None,None,None]     
+# State:      [A,B,C]=[None,None,None]     
 
     
